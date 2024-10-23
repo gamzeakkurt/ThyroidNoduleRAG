@@ -1,8 +1,8 @@
 # Thyroid Nodule Insights A RAG System Using Llama2 via Hugging-Face 🦙
 
-Welcome to the **Thyroid Nodules Q&A System**! This project implements a robust question-and-answer system powered by the **Llama-2** model from Hugging Face, enhanced with **Retrieval-Augmented Generation (RAG)** techniques. Designed to deliver precise and informative responses about thyroid nodules, this system leverages a curated set of indexed documents to ensure users receive accurate and contextually relevant answers.
+The **Thyroid Nodule Insights** project is a sophisticated question-and-answer platform that utilizes the **Llama-2** model from Hugging Face, augmented by **Retrieval-Augmented Generation (RAG)** techniques. This system is designed to provide precise and informative responses regarding thyroid nodules, leveraging a carefully curated set of indexed documents to ensure that users receive accurate and contextually relevant information.
 
-By integrating advanced natural language processing (NLP) capabilities, the system effectively retrieves pertinent information, enabling healthcare professionals, patients, and researchers to enhance their understanding of thyroid nodules and their management.
+By incorporating advanced natural language processing (NLP) capabilities, the system facilitates the effective retrieval of pertinent information, thereby supporting healthcare professionals, patients, and researchers in their efforts to understand and manage thyroid nodules more effectively.
 
 ## Table of Contents
 
@@ -12,6 +12,8 @@ By integrating advanced natural language processing (NLP) capabilities, the syst
 - [Usage](#usage)
 - [References](#references)
 - [License](#license)
+
+
 
 ## Installation
 
