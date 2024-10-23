@@ -1,0 +1,6 @@
+llama-index
+transformers
+einops 
+accelerate
+langchain 
+pypdf
