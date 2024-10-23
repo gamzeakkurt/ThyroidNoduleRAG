@@ -11,6 +11,7 @@ This project implements a Q&A system that utilizes the Llama-2 model from Huggin
 - [Getting Started](#getting-started)
 - [Code Overview](#code-overview)
 - [Usage](#usage)
+- [References](#reference)
 - [License](#license)
 
 ## Installation
@@ -28,8 +29,7 @@ pip install llama-index huggingface_hub transformers langchain torch
 Before starting the project, create a Hugging Face user token to access the Llama and embedding models. This token is unique to your account, so do not share it with anyone. Once you've generated your token, enter it in the "Token ID" field and uncomment the code below:
 
 ```python
-# login(token="YOUR_TOKEN_ID")
-!huggingface-cli login
+login(token="YOUR_TOKEN_ID")
 ```
 
 ### Reading Documents
@@ -61,9 +61,6 @@ from llama_index.core import ServiceContext
 from langchain_community.embeddings import HuggingFaceEmbeddings
 # Import LangchainEmbedding for generating embeddings with LangChain models
 from llama_index.embeddings.langchain import LangchainEmbedding
-# Suppress warnings
-import warnings
-warnings.filterwarnings("ignore")
 ```
 
 ### Configuring the Llama-2 Model
@@ -128,17 +125,42 @@ print(response)
 ## Usage
 
 You can ask any questions about thyroid nodules. The system retrieves relevant information from the indexed documents based on your queries.
+## References
 
-## License
+This project utilizes the following documents and articles related to thyroid nodules:
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+1. **Thyroid Nodules**  
+   - Authors: Mary Jo Welker, Diane Orlov  
+   - Journal: American Family Physician  
+   - Volume: 67, Issue: 3, Pages: 559-567, Year: 2003  
+   - Link: [Read More](https://www.aafp.org/pubs/afp/issues/2003/0201/p559.html)  
 
-### Explanation:
-- **Structure**: The README is structured with headings and subheadings for easy navigation.
-- **Installation**: A section for installation instructions is included.
-- **Getting Started**: Details on logging into Hugging Face and reading documents are provided.
-- **Code Overview**: Key sections of the code are summarized for clarity.
-- **Usage**: Briefly explains how users can interact with the system.
+ 
 
-Feel free to adjust any sections or add more details as needed!
+2. **Evaluation and Management of the Pediatric Thyroid Nodule**  
+   - Authors: Jeremy T. Guille, et al.  
+   - Journal: The Oncologist  
+   - Volume: 20, Issue: 1, Pages: 19-27, Year: 2015  
+ 
+3. **Thyroid Nodules**  
+   - Authors: Kenneth D. Burman, Leonard Wartofsky  
+   - Journal: New England Journal of Medicine  
+   - Volume: 373, Issue: 24, Pages: 2347-2356, Year: 2015  
+
+  
+
+4. **Investigating the Thyroid Nodule**  
+   - Authors: H. M. Mehanna, et al.  
+   - Journal: BMJ  
+   - Volume: 338, Year: 2009  
+
+
+5. **Management of the Solitary Thyroid Nodule**  
+   - Authors: Meei J. Yeung, Jonathan W. Serpell  
+   - Journal: The Oncologist  
+   - Volume: 13, Issue: 2, Pages: 105-112, Year: 2008  
+ ## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Feel free to customize any sections or add additional information specific to your project! Let me know if you need further assistance.
+
