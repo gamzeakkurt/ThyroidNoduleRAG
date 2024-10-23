@@ -1,4 +1,4 @@
-# Thyroid Nodule Insights A RAG System Using Llama2 via Hugging-Face
+# Thyroid Nodule Insights A RAG System Using Llama2 via Hugging-Face 🦙
 
 ```markdown
 # Thyroid Nodules Q&A System
@@ -140,25 +140,29 @@ This project utilizes the following documents and articles related to thyroid no
 2. **Evaluation and Management of the Pediatric Thyroid Nodule**  
    - Authors: Jeremy T. Guille, et al.  
    - Journal: The Oncologist  
-   - Volume: 20, Issue: 1, Pages: 19-27, Year: 2015  
+   - Volume: 20, Issue: 1, Pages: 19-27, Year: 2015
+   - Link:[Read More](https://theoncologist.onlinelibrary.wiley.com/doi/pdfdirect/10.1634/theoncologist.2014-0115)
  
 3. **Thyroid Nodules**  
    - Authors: Kenneth D. Burman, Leonard Wartofsky  
    - Journal: New England Journal of Medicine  
-   - Volume: 373, Issue: 24, Pages: 2347-2356, Year: 2015  
+   - Volume: 373, Issue: 24, Pages: 2347-2356, Year: 2015
+   -  Link:[Read More](https://emrc.mui.ac.ir/sites/emrc/files/Journal_Club/Thyroid%20Nodules.pdf)
 
   
 
 4. **Investigating the Thyroid Nodule**  
    - Authors: H. M. Mehanna, et al.  
    - Journal: BMJ  
-   - Volume: 338, Year: 2009  
+   - Volume: 338, Year: 2009
+   - Link:[Read More](https://d1wqtxts1xzle7.cloudfront.net/53130149/j.1749-4486.2009.01962.x20170515-16591-vrj0vj-libre.pdf?1494834830=&response-content-disposition=inline%3B+filename%3DInvestigating_the_thyroid_nodule.pdf&Expires=1729730709&Signature=GYHn~q7fmreYldyp4olzfIgdkcih-CnOOgVv2KvCCgzEnooQp1~JAbIZ6sf9j3C64L2EC0J5i3X2mYbxrjYSO3w-x2I9HIFUI187s-fkOg8dfEOfQCwduGhvu-U5TEBf6EqOdpNtHN0Qq-0mpSzXGJjpp5Pc9tMSaZN06tQ~OGh99KJo1FY0FObXXhPXCT1LEt5QrTaLLaBgN7xB~6RmHD~M1ON7fE3sBlWLCmy~-0kxFVTEbIk42KIGgvasMQOxdqeacFT2X3XbWnACUkWuGzQk3ZIuHeIDGmg37HlCehP8npPHpidV5jy3vo2Q8MwV~nJ3e8XdzTRL3kr3gUvXKA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
 
 
 5. **Management of the Solitary Thyroid Nodule**  
    - Authors: Meei J. Yeung, Jonathan W. Serpell  
    - Journal: The Oncologist  
-   - Volume: 13, Issue: 2, Pages: 105-112, Year: 2008  
+   - Volume: 13, Issue: 2, Pages: 105-112, Year: 2008
+   - Link:[Read More](https://theoncologist.onlinelibrary.wiley.com/doi/pdfdirect/10.1634/theoncologist.2007-0212)
  ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
