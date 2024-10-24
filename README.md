@@ -19,8 +19,13 @@ By incorporating advanced natural language processing (NLP) capabilities, the sy
 
 To get started with the Thyroid Nodules Q&A System, ensure you have the necessary dependencies installed. You can easily install them using the following command:
 
-```bash
+```
 pip install llama-index huggingface_hub transformers langchain torch
+pip install pypdf
+pip install sentence_transformers
+pip install llama-index
+pip install llama-index-embeddings-langchain
+```
 
 
 ## Getting Started
@@ -33,13 +38,7 @@ Before starting the project, create a Hugging Face user token to access the Llam
 login(token="YOUR_TOKEN_ID")
 ```
 
-### Reading Documents
 
-The code reads and loads all the documents stored in the folder "Thyroid Nodules Documents" into memory. These documents will be used by the RAG system to retrieve relevant information during queries.
-
-```python
-documents = SimpleDirectoryReader("Thyroid Nodules Documents").load_data()
-```
 
 ## Code Overview
 
@@ -62,6 +61,13 @@ from llama_index.core import ServiceContext
 from langchain_community.embeddings import HuggingFaceEmbeddings
 # Import LangchainEmbedding for generating embeddings with LangChain models
 from llama_index.embeddings.langchain import LangchainEmbedding
+```
+### Reading Documents
+
+The code reads and loads all the documents stored in the folder "Thyroid Nodules Documents" into memory. These documents will be used by the RAG system to retrieve relevant information during queries.
+
+```python
+documents = SimpleDirectoryReader("Thyroid Nodules Documents").load_data()
 ```
 
 ### Configuring the Llama-2 Model
@@ -126,6 +132,7 @@ print(response)
 ## Usage
 
 You can ask any questions about thyroid nodules. The system retrieves relevant information from the indexed documents based on your queries.
+
 ## References
 
 This project utilizes the following documents and articles related to thyroid nodules:
